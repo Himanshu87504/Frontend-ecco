@@ -51,7 +51,8 @@ const OrderProcessing = () => {
             navigate("/orders");
           }, 10000);
         }
-      } catch (error) {
+      }
+      catch (error) {
         toast.error("Payment verification failed.Please try again");
         navigate("/cart");
         console.log(error);
