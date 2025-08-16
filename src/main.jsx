@@ -7,7 +7,7 @@ import { UserProvider } from "./context/UserContext";
 import { ProductProvider } from "./context/ProductContext";
 import { CartProvider } from "./context/CartContext";
 
-export const server = "https://eccomerse-1-ur4x.onrender.com";
+export const server = "https://backend-ecomerse.onrender.com";
 
 export const categories = [
   "smartphone",
